@@ -10,3 +10,4 @@ vim.keymap.set("n", "<leader>ww", "<cmd>set linebreak<CR>", {
 })
 vim.keymap.set("v", "<", "<gv")
 vim.keymap.set("v", ">", ">gv")
+vim.keymap.set("n", "<C-t>", "", { desc = "Delete keymap" })

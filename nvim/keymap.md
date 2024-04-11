@@ -6,7 +6,8 @@ Vim:
         - G end of file
         - <C-b> page up
         - <C-f> page down
-    - yy yank (copy) line
+    - V for full line visual
+    - yy yank (copy) line/section
     - p paste after cursor
     - P paste before
     - cc replace entire line
@@ -14,6 +15,7 @@ Vim:
     - o new line below
     - O new line above
     - = indent
+    - gcc comment line/section
     - <C-w> pane control
     - <C-w> s/v split
     - <C-w> +/- height
@@ -29,12 +31,13 @@ Vim:
     - :checkhealth
     - visual mode shift <> indent in or out
 tmux:
-    - <C-s> H/V to split pane
+    - <C-t> ? show help
+    - <C-t> -/| to split pane
     - <C-hjkl> to swap panes
-    - <C-s> d to detach
-    - <C-s> <opt/alt-arrow> to resize pane
-    - <C-s> [ enter scroll mode, q to quit
-    - <C-s> c create new window\tab
-    - <C-s> p previous window
-    - <C-s> n next window
+    - <C-t> d to detach
+    - <C-t> hjkl to resize pane
+    - <C-t> [ enter scroll mode, q to quit
+    - <C-t> c create new window\tab
+    - <C-t> , previous window
+    - <C-t> . next window
 
